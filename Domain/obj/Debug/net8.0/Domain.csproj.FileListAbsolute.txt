@@ -9,3 +9,4 @@
 /Users/tanvir/Documents/dotnet/Reactivities/Domain/obj/Debug/net8.0/refint/Domain.dll
 /Users/tanvir/Documents/dotnet/Reactivities/Domain/obj/Debug/net8.0/Domain.pdb
 /Users/tanvir/Documents/dotnet/Reactivities/Domain/obj/Debug/net8.0/ref/Domain.dll
+/Users/tanvir/Documents/dotnet/Reactivities/Domain/obj/Debug/net8.0/Domain.sourcelink.json
