@@ -1,7 +1,5 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-import { ducks } from './demo'
-import DuckItem from './DuckItem'
 import axios from 'axios';
 import { Header, List } from 'semantic-ui-react';
 
@@ -24,9 +22,6 @@ function App() {
           </List.Item>
         ))}
       </List>
-      {/* {ducks.map(x => (
-        <DuckItem key={x.name} duck={x} />
-      ))} */}
     </div>
   )
 }
