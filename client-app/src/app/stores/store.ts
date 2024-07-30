@@ -12,6 +12,6 @@ export const store: Store = {
 export const StoreContext = createContext(store);
 
 //hook
-export function useStore(){
+export const useStore = () => {
     return useContext(StoreContext);
 }
