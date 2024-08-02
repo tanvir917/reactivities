@@ -20,7 +20,22 @@ export default class ActivityStore {
         );
     }
 
+    get groupedActivities() {
+        return Object.entries(
+            this.activitiesByDate.reduce((activities, activity) => {
+                const date = activity.date ?? 'Invalid Date'; // Use a default value if date is undefined
+                if (date !== 'Invalid Date') { // Only add valid dates
+                    activities[date] = activities[date] ? [...activities[date], activity] : [activity];
+                } else {
+                    console.warn('Activity with invalid date found:', activity);
+                }
+                return activities; // Ensure return value is added here
+            }, {} as { [key: string]: Activity[] })
+        )
+    }
+    
     loadActivities = async () => {
+        if (this.loadingInitial) return; // Prevent re-invocation if already loading
         this.setLoadingInitial(true);
         try {
             const activities = await agent.Activities.list();
