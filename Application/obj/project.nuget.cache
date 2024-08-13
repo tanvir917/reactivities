@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "y+uXERrr1rr4IemNkuSwygMViqjb/R/i32yWAYPys0U9FA1k28/mIA1seMRCCYPyYSiGWNJHDr7jPpSrn21ABg==",
+  "dgSpecHash": "WV1xdPOt9dI9hokVdkzLcaXbc1lPaXEj1g9GPwnXkRWKZlcXOpaTRezwUFK7G/PnLBTU/anuNcG1o1RDFoL2nw==",
   "success": true,
   "projectFilePath": "/Users/tanvir/Documents/dotnet/Reactivities/Application/Application.csproj",
   "expectedPackageFiles": [
     "/Users/tanvir/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/tanvir/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "/Users/tanvir/.nuget/packages/fluentvalidation/11.5.1/fluentvalidation.11.5.1.nupkg.sha512",
+    "/Users/tanvir/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/tanvir/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "/Users/tanvir/.nuget/packages/mediatr/12.3.0/mediatr.12.3.0.nupkg.sha512",
     "/Users/tanvir/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/tanvir/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

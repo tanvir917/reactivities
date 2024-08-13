@@ -136,3 +136,6 @@
 /Users/tanvir/Documents/dotnet/Reactivities/API/bin/Debug/net8.0/MediatR.Contracts.dll
 /Users/tanvir/Documents/dotnet/Reactivities/API/bin/Debug/net8.0/AutoMapper.dll
 /Users/tanvir/Documents/dotnet/Reactivities/API/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/tanvir/Documents/dotnet/Reactivities/API/bin/Debug/net8.0/FluentValidation.dll
+/Users/tanvir/Documents/dotnet/Reactivities/API/bin/Debug/net8.0/FluentValidation.AspNetCore.dll
+/Users/tanvir/Documents/dotnet/Reactivities/API/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll
