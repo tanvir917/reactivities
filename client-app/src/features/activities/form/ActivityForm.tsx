@@ -1,11 +1,11 @@
-import { Button, FormField, Header, Label, Segment } from "semantic-ui-react";
+import { Button, Header, Segment } from "semantic-ui-react";
 import { useEffect, useState } from "react";
 import { useStore } from "../../../app/stores/store";
 import { observer } from "mobx-react-lite";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { Activity } from "../../../app/models/activity";
 import LoadingComponent from "../../../app/layout/LoadingComponent";
-import { Formik, Form, ErrorMessage } from "formik";
+import { Formik, Form } from "formik";
 import * as Yup from 'yup';
 import MyTextInput from "../../../app/common/form/MyTextInput";
 import MyTextArea from "../../../app/common/form/MyTextArea";
@@ -48,14 +48,9 @@ export default observer(function ActivityForm() {
         }
     }, [id, loadActivity]);
 
-    // function handleInputChange(event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>){
-    //     const {name, value} = event.target;
-    //     setActivity({...activity, [name]: value});
-    // }
-
     function handleFormSubmit(activity: Activity) {
         if(activity.id.length === 0){
-            let newActivity = {
+            const newActivity = {
                 ...activity,
                 id: uuid()
             }
