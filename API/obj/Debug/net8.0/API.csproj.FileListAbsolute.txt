@@ -156,3 +156,5 @@
 /Users/tanvir/Documents/dotnet/Reactivities/API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Users/tanvir/Documents/dotnet/Reactivities/API/bin/Debug/net8.0/Infrastructure.dll
 /Users/tanvir/Documents/dotnet/Reactivities/API/bin/Debug/net8.0/Infrastructure.pdb
+/Users/tanvir/Documents/dotnet/Reactivities/API/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/tanvir/Documents/dotnet/Reactivities/API/bin/Debug/net8.0/appsettings.Production.json
