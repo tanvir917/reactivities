@@ -3,7 +3,6 @@ import { Activity } from "../../../app/models/activity";
 import { Link } from "react-router-dom";
 import { format } from "date-fns";
 import ActivityListItemAttendee from "./ActivityListItemAttendee";
-import { act } from "react";
 
 interface Props{
     activity: Activity
@@ -13,9 +12,12 @@ export default function ActivityListItem({activity} : Props) {
     return(
         <Segment.Group>
             <Segment>
+                {activity.isCancelled && (
+                    <Label attached='top' content='Cancelled' style={{textAlign: 'center'}} />
+                )}
                 <Item.Group>
                     <Item>
-                        <Item.Image size='tiny' circular src='/assets/user.png' />
+                        <Item.Image style={{marginBottom: 3}} size='tiny' circular src='/assets/user.png' />
                         <Item.Content>
                             <Item.Header as={Link} to={`/activities/${activity.id}`}>
                                 {activity.title}
